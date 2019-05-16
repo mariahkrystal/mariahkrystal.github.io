@@ -19,30 +19,3 @@ nav {
 
 .jumbotron {
     background-color: #ed858e;
-
-/* footer jquery*/
-@media only screen and (min-width: 1000px) {
-	footer {
-		text-transform: uppercase;
-		font-weight: 100;
-	}
-	.footer-projects-links {
-		display: block;
-	}
-
-	footer ul li p {
-		font-family: 'Catamaran', sans-serif;
-		font-size: 24px;
-		color: #fff;
-		line-height:40px
-		text-transform: uppercase;
-		padding-right: 30px;
-	}
-
-	footer ul {
-		padding-right: 30px;
-}
-
-
-}
-
