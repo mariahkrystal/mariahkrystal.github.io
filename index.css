@@ -17,5 +17,43 @@ nav {
     font-weight: 900;
 }
 
+<<<<<<< HEAD
 .jumbotron {
     background-color: #ed858e;
+=======
+.footer-github {
+	width: 50px;
+	float: right;
+}
+
+.footer-github img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+/* footer jquery*/
+@media only screen and (min-width: 1000px) {
+	footer {
+		text-transform: uppercase;
+		font-weight: 100;
+	}
+	.footer-projects-links {
+		display: block;
+	}
+
+	footer ul li p {
+		font-family: 'Catamaran', sans-serif;
+		font-size: 24px;
+		color: #fff;
+		line-height:40px
+		text-transform: uppercase;
+		padding-right: 30px;
+	}
+
+	footer ul {
+		padding-right: 30px;
+}
+
+
+}
+>>>>>>> b2fd368712e602af4d20888f62d336d0011ef755
