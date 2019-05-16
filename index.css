@@ -17,19 +17,8 @@ nav {
     font-weight: 900;
 }
 
-<<<<<<< HEAD
 .jumbotron {
     background-color: #ed858e;
-=======
-.footer-github {
-	width: 50px;
-	float: right;
-}
-
-.footer-github img {
-	width: 100%;
-	margin-bottom: 10px;
-}
 
 /* footer jquery*/
 @media only screen and (min-width: 1000px) {
@@ -56,4 +45,4 @@ nav {
 
 
 }
->>>>>>> b2fd368712e602af4d20888f62d336d0011ef755
+
