@@ -1,85 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>new site</title>
 
-	<meta charset="utf-8">
-	<title>My Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+		    font-family: catamaran;
+		}
+		nav {
+		    text-transform: uppercase;
+		}
+
+		.navbar {
+		    background-color: white;
+		    border: none;
+		}
+
+		.navbar-brand {
+		    font-family: catamaran;
+		    font-weight: 900;
+		}
+
+		.jumbotron {
+		    background-color: #ed858e;
+
+		 }
+	</style>
 
 </head>
 <body>
-	<header>
-		<a class="header-logo" href="index.html">mariah krystal</a>
-		<nav>
-			<ul>
-				<li><a href="About.html">About Me</a></li>
-				<li><a href="Portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-		<section class="index-banner">
-			<div class="vertical-center">
-				<h2>I AM AN ASPIRING<br>WEB DEVELOPER</h2>
-				<h1>Self-taught with<br>a desire to learn and grow.</h1>
+<!-- NAVIGATION BAR STARTS -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mk-nav" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		    	</button>
+				<a href="index.html" class="navbar-brand">mariah krystal</a>
 			</div>
-		</section>
-
-		<section class="index-links">
-			<a href="About.html">
-				<div class="index-boxlink-square">
-					<h3>About</h3>
-				</div>
-			</a>
-			<a href="Portfolio.html">
-				<div class="index-boxlink-rectangle">
-					<h3>Portfolio</h3>
-				</div>
-			</a>
-			<a href="contact.html">
-				<div class="index-boxlink-square">
-					<h3>Contact</h3>
-				</div>
-			</a>
-		</section>
-	</main>
-
-	<footer>
-		<ul class="footer-main-links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Portfolio.html">Portfolio</a></li>
-			<li><a href="About.html">About Me</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-
-<!-- 		<ul class=footer-cases-links>
-			<li>latest cases</li>
-			<li><a href="#"></a>1</li>
-			<li><a href="#"></a>2</li>
-			<li><a href="#"></a>3</li>
-		</ul> -->
-
-		<div class="footer-ig">
-			<a href="http://www.instagram.com/mariah.codes"><img src="img/ig.png" alt="instagram logo"></a>
+			<div class="collapse navbar-collapse" id="mk-nav">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
 		</div>
+	</nav>
+<!-- NAVIGATION BAR ENDS -->
+<div class="container">
+	<div class="jumbotron">
+		  <h1>I am a freelance web developer</h1>
+		  <p>Self-taught with a desire to learn and grow.</p>
+		  <p><a class="btn btn-default btn-lg" href="#" role="button">Portfolio</a></p>
+	</div>
+</div>
 
-		<p class="copyright">
-			Designed and coded by &copy; Mariah Krystal. All Rights Reserved
-		</p>
-	</footer>
-
-
-
-
-
-
-
-
-
-
+<!-- JQUERY AND JAVASCRIPT START -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+<!-- JQUERY AND JAVASCRIPT END -->
 </body>
 </html>
