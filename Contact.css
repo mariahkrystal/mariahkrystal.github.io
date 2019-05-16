@@ -282,6 +282,16 @@ p.copyright {
   margin-bottom: 10px;
 }
 
+.footer-gh {
+  width: 50px;
+  float: right;
+}
+
+.footer-gh img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 /* footer jquery*/
 @media only screen and (min-width: 1000px) {
   footer {
