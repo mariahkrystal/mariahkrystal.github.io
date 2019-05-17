@@ -1,1 +1,23 @@
-portfolio.css
+/*------------------MY CODE---------------------*/
+		body {
+		    font-family: catamaran;
+		}
+		nav {
+		    text-transform: uppercase;
+		}
+
+		.navbar {
+		    background-color: white;
+		    border: none;
+		}
+
+		.navbar-brand {
+		    font-family: catamaran;
+		    font-weight: 900;
+		}
+
+		.jumbotron {
+		    background-color: #ed858e;
+		}
+
+		
