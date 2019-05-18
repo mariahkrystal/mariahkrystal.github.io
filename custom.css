@@ -8,8 +8,7 @@
 
 		.navbar {
 		    background-color: white;
-		    border: none;
-		}
+		    border: none;		}
 
 		.navbar-brand {
 		    font-family: catamaran;
@@ -17,7 +16,17 @@
 		}
 
 		.jumbotron {
-		    background-color: #ed858e;
+		    background-image: url("img/code.jpg");
+ 			background-size: cover;
+		    color:#fff;
+		    text-shadow: 1px 1px 8px #000;
 		}
 
-		
+		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		    color: #ed858e; 
+		}
+
+		.navbar-default .navbar-nav, .navbar-default .navbar-brand {
+		    color: #ed858e;
+		}
+
