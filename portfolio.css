@@ -1,6 +1,7 @@
 /*------------------MY CODE---------------------*/
 		body {
 		    font-family: catamaran;
+		    background-color: #f1f1f1;
 		}
 		nav {
 		    text-transform: uppercase;
@@ -15,6 +16,8 @@
 		.navbar {
 		    background-color: white;
 		    border: none;
+			box-shadow: 0 8px 6px -6px;
+			border:0;	
 		}
 
 		.navbar-default .navbar-nav, .navbar-default .navbar-brand {

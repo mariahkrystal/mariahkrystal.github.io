@@ -1,15 +1,55 @@
 /*------------------MY CODE---------------------*/
 		body {
 		    font-family: catamaran;
+		    background-color: #ed858e;
+			background-size: cover;
+			background-position: center;
 		}
 		nav {
 		    text-transform: uppercase;
 		}
 
 		a {
-			color: #ed858e;
+			color: #000;
 			text-decoration: none;
 		}
+
+		a:hover {
+			color:#ed858e;
+			text-decoration: none;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		#content {
+			text-align:center;
+			padding-top: 20%;
+			text-shadow:0px 4px 3px rgba(0,0,0,0.4), 
+						0px 8px 18px rgba(0,0,0,0.1),
+						0px 18px 23px rgba(0,0,0,0.1);
+		}
+
+		h1 {
+			font-weight: 700;
+			font-size: 5em;
+		}
+
+		h1, h3 {
+			color:#fff;
+		}
+
+		hr {
+			width: 400px;
+			border-top: 1px solid #f8f8f8;
+			border-bottom: 1px solid rgba(0,0,0,0.2)
+		}
+
+		.container h1 {
+			text-transform: uppercase;
+		}
+
 
 		.navbar {
 		    background-color: white;
@@ -21,17 +61,6 @@
 		.navbar-brand {
 		    font-family: catamaran;
 		    font-weight: 900;
-		}
-
-		.jumbotron {
- 			background-size: cover;
- 			background-color:#ed858e;
-		    color:#fff;
-		    text-shadow: 1px 1px 8px #000;
-		}
-
-		.jumbotron h1 {
-			font-weight: 900;
 		}
 
 		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -48,4 +77,6 @@
 		   bottom:0px;
 		   height:30px;
 		   width:100%;
+		   background-color: transparent;
+		   color:white;
 		}
