@@ -1,10 +1,19 @@
 body {
-	padding: 70px;
+	padding-top: 70px;
+}
+
+a {
+	color:#000;
+}
+#footer a:hover {
+	color:#e1dae5;
+	text-decoration: none;
 }
 
 .jumbotron {
 	color:#513d5b;
 	background:#e1dae5;
+	width:100%;
 }
 
 .navbar {
@@ -22,4 +31,14 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: #fff;
+}
+
+#footer {
+    position: fixed-bottom;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    color: black;
 }
