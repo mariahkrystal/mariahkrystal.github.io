@@ -1,9 +1,16 @@
 /*------------------MY CODE---------------------*/
 		body {
 		    font-family: catamaran;
+		    color:#000;
 		}
 		nav {
 		    text-transform: uppercase;
+		}
+
+		
+		a {
+			color: #ed858e;
+			text-decoration: none;
 		}
 
 		.navbar {
@@ -11,13 +18,100 @@
 		    border: none;
 		}
 
+		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		    color: #ed858e; 
+		}
+
 		.navbar-brand {
 		    font-family: catamaran;
 		    font-weight: 900;
+		}
+
+		.navbar-default .navbar-nav, .navbar-default .navbar-brand {
+		    color: #000;
 		}
 
 		.jumbotron {
 		    background-color: #ed858e;
 		}
 
-		
+		@media only screen and (max-width: 500px) {
+	    .masthead-heading {
+	        font-size: 3em;
+	    }
+		}
+		@media only screen and (max-width: 500px) {
+		    .masthead {
+		        padding: 3em 0;
+		    }
+		    .masthead-heading {
+		        font-size: 3em;
+		    }
+		}
+
+
+		.masthead-heading,
+		.masthead-intro {
+		  text-align: center;
+		}
+
+		.masthead {
+		  padding: 6em 0;
+		  background-image: url('');
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  border-top: solid 1em #ed858e;
+		  box-shadow: inset 0 0 15px #000000;
+		}
+
+		.masthead-intro {
+		  margin-bottom: 0.1em;
+		  font-family: catamaran;
+		  font-size: 2em;
+		}
+
+		.masthead-heading {
+		  margin-top: -0.2em;
+		  font-family: catamaran;
+		  font-weight: 900;
+		  font-size: 6em;
+		  letter-spacing: -0.02em;
+		  text-transform: uppercase;
+		  text-shadow: 1px 1px 8px #000;
+		}
+
+		.aboutme-section {
+		  max-width: 38em;
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top: 2em;
+		  background-color: white;
+		  font-size:1em;
+		  padding:50px;
+		  text-align: center;
+		}
+
+		.aboutme-section h1 {
+			font-weight: 700;
+		}
+
+		.aboutme-section p {
+			font-weight: 100;
+			font-size: 2rem;
+		}
+
+		.me {
+			width: 250px;
+			height: 250px;
+			
+			margin: auto;
+			display: block;
+		}
+
+		#footer {
+			position:fixed-bottom;
+		   left:0px;
+		   bottom:0px;
+		   height:30px;
+		   width:100%;
+		}

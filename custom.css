@@ -6,9 +6,17 @@
 		    text-transform: uppercase;
 		}
 
+		a {
+			color: #ed858e;
+			text-decoration: none;
+		}
+
 		.navbar {
 		    background-color: white;
-		    border: none;		}
+		    border: none;
+			box-shadow: 0 8px 6px -6px;
+			border:0;		
+		}
 
 		.navbar-brand {
 		    font-family: catamaran;
@@ -32,4 +40,12 @@
 
 		.navbar-default .navbar-nav, .navbar-default .navbar-brand {
 		    color: #000;
+		}
+
+		#footer {
+			position:fixed;
+		   left:0px;
+		   bottom:0px;
+		   height:30px;
+		   width:100%;
 		}

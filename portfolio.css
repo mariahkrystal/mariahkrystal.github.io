@@ -6,9 +6,19 @@
 		    text-transform: uppercase;
 		}
 
+		
+		a {
+			color: #ed858e;
+			text-decoration: none;
+		}
+
 		.navbar {
 		    background-color: white;
 		    border: none;
+		}
+
+		.navbar-default .navbar-nav, .navbar-default .navbar-brand {
+		    color: #000;
 		}
 
 		.navbar-brand {
@@ -16,8 +26,20 @@
 		    font-weight: 900;
 		}
 
+		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		    color: #ed858e; 
+		}
+
 		.jumbotron {
 		    background-color: #ed858e;
+		}
+
+		#footer {
+			position:fixed;
+		   left:0px;
+		   bottom:0px;
+		   height:30px;
+		   width:100%;
 		}
 
 		
