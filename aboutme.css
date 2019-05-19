@@ -91,7 +91,7 @@
 		  margin-top: 2em;
 		  background-color: white;
 		  font-size:1em;
-		  padding:50px;
+		  padding:70px;
 		  text-align: justify;
 		}
 
@@ -105,10 +105,10 @@
 			font-size: 2rem;
 		}
 
+
 		.me {
 			width: 250px;
 			height: 250px;
-			float: left;
 			margin: auto;
 			display: block;
 		}
@@ -116,7 +116,6 @@
 		.fam {
 			width: 250px;
 			height: 250px;
-			float: right;
 			margin: auto;
 			display: block;
 		}

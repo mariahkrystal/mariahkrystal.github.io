@@ -2,7 +2,7 @@
 		body {
 		    font-family: catamaran;
 		    background-color: #ed858e;
-			background-size: cover;
+		    background-size: cover;
 			background-position: center;
 		}
 		nav {
@@ -72,11 +72,17 @@
 		}
 
 		#footer {
-			position:fixed;
+			color:white;
+			padding:30px;
+			margin:auto;
+			display: block;
+			position:fixed-bottom;
 		   left:0px;
 		   bottom:0px;
 		   height:30px;
 		   width:100%;
-		   background-color: transparent;
-		   color:white;
+		}
+
+		.wrapper {
+			padding-bottom:300px;
 		}
