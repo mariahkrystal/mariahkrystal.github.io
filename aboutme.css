@@ -36,6 +36,11 @@
 		    color: #000;
 		}
 
+		.active, .btn:hover {
+			 background-color: rgba(0, 0, 0, 0.1);
+			 color: white;
+		}
+
 		.jumbotron {
 		    background-color: #ed858e;
 		}
