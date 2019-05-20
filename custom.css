@@ -74,7 +74,7 @@
 		    background-color: white;
 		    border: none;
 			box-shadow: 0 8px 6px -6px;
-			border:0;		
+			border:0;	
 		}
 
 		.navbar-brand {
@@ -96,6 +96,10 @@
 
 		.wrapper {
 			padding-bottom:100px;
+		}
+
+		.wrapper .container #content {
+			padding-top: 100px;
 		}
 
 	
