@@ -23,6 +23,7 @@
 		
 		}
 
+
 		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 		    color: #ed858e; 
 		}
@@ -39,10 +40,6 @@
 		.active, .btn:hover {
 			 background-color: rgba(0, 0, 0, 0.1);
 			 color: white;
-		}
-
-		.jumbotron {
-		    background-color: #ed858e;
 		}
 
 		@media only screen and (max-width: 500px) {
@@ -93,10 +90,11 @@
 		  max-width: 50em;
 		  margin-left: auto;
 		  margin-right: auto;
-		  margin-top: 2em;
+		  margin-top: 3em;
+		  margin-bottom: 3em;
 		  background-color: white;
 		  font-size:1em;
-		  padding:45px;
+		  padding:30px;
 		  text-align: justify;
 		}
 
@@ -108,6 +106,14 @@
 		.aboutme-section p {
 			font-weight: 100;
 			font-size: 2rem;
+			padding: 10px
+		}
+
+		hr {
+			width: 50%;
+			border: 0;
+		    height: 1px;
+		    background-image: linear-gradient(to right, rgba(237, 133, 142, 0), rgba(237, 133, 142, 0.75), rgba(237, 133, 142, 0));
 		}
 
 		.effect {
@@ -249,12 +255,12 @@
 
 
 		#footer {
-			padding:30px;
-			margin:auto;
-			display: block;
-			position:fixed-bottom;
-		   	left:0px;
-		   	bottom:0px;
-		   	height:30px;
-		   	width:100%;
+		    position: fixed-bottom;
+		    bottom: 0;
+		    width: 100%;
+		    height: 60px;
+		    line-height: 60px;
+		    background-color: white;
+		    color: #000;
+		    box-shadow:0px -4px 3px rgba(50, 50, 50, 0.50);
 		}
