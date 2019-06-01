@@ -22,7 +22,6 @@ a:hover {
 html {
 	height: 100%;
 }
-
 #content {
 	text-align:center;
 	padding-top: 5%;
@@ -58,7 +57,18 @@ hr {
 	width: 50%;
 	border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ed858e, rgba(255, 255, 255, 0));
+}
+
+.btn-default {
+    color: #000;
+		background-color: white;
+    border-color: none; /*set the color you want here*/
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #ed858e;
+    border-color: none; /*set the color you want here*/
 }
 
 .container h1 {
@@ -95,7 +105,7 @@ hr {
 }
 
 .wrapper {
-	padding-bottom:100px;
+	padding-bottom:50px;
 }
 
 .wrapper .container #content {
