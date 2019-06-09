@@ -3,8 +3,9 @@
 
 body {
 	font-family: catamaran;
-	background-color: #000;
-	}
+	background-color: #f1f1f1;
+
+}
 
 nav {
     text-transform: uppercase;
@@ -31,13 +32,14 @@ html {
 				0px 18px 23px rgba(0,0,0,0.1);
 }
 
+
 h1 {
 	font-weight: 700;
 	font-size: 5rem;
 }
 
 h2 {
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	text-align: center;
 	text-shadow:0px 4px 3px rgba(0,0,0,0.4), 
@@ -47,7 +49,7 @@ h2 {
 }
 
 h1, h3 {
-	color:#fff;
+	color:#000;
 }
 
 h3 {
@@ -108,6 +110,7 @@ hr {
 .wrapper {
 	padding-bottom:50px;
 }
+
 
 .wrapper .container #content {
 	padding-top: 100px;

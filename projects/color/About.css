@@ -1,0 +1,307 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+* {
+  text-decoration: none;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #ed858e;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-logo {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/*NAVIGATION*/
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+  
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+/*header JQUERY*/
+@media only screen and (min-width: 1000px) {
+  header .header-logo {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+
+  }
+
+  header nav ul {
+    margin: 20px 0;
+    float: left;
+  }
+
+  header nav ul li a {
+    line-height: 60px
+  }
+}
+
+
+/*coming soon*/
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('img/pic1.png');
+  /* Full-screen */
+  height: 50%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: Catamaran, sans-serif;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle a {
+	color: white;
+}
+
+.middle a:hover {
+	color: #ed858e;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+
+/* FOOTER */
+
+footer {
+  width: cal(100% - 80px);
+  padding: 40px 40px;
+  background-color: #111;
+  margin-top: 108px;
+  overflow: hidden;
+  text-transform: uppercase;
+  position: relative;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  line-height:40px
+}
+
+p.copyright {
+  font-family: 'Catamaran', sans-serif;
+  position: absolute;
+  width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+  text-align: center;
+  bottom:0;
+}
+
+.footer-projects-links {
+  display: none;
+}
+
+.footer-ig {
+  width: 50px;
+  float: right;
+}
+
+.footer-ig img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* footer jquery*/
+@media only screen and (min-width: 1000px) {
+  footer {
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  .footer-projects-links {
+    display: block;
+  }
+
+  footer ul li p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height:40px
+    text-transform: uppercase;
+    padding-right: 30px;
+  }
+
+  footer ul {
+    padding-right: 30px;
+}
+
+
+}
