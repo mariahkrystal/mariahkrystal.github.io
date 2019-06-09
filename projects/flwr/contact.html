@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Flower Gallery</title>
+	<title>Contact Us</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
 
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -12,6 +12,7 @@
 <body>
 <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
 <!-- navbar start -->
+<header>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -21,7 +22,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      	</button>
-				<a href="#" class="navbar-brand"><i class="fas fa-seedling"></i> TFG</a>
+				<a href="index.html" class="navbar-brand"><i class="fas fa-seedling"></i> TFG</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-nav-demo">
 				<ul class="nav navbar-nav">
@@ -38,72 +39,35 @@
 		</div>
 	</nav>
 <!-- navbar end -->
+</header>
 
-<!-- jumbotron start -->
-<div class="container">
-	<div class="jumbotron">
-		<h1><i class="far fa-images"></i> The Flower Gallery</h1>
-		<p>A bunch of beautiful images that I didn't take</p>
-	</div>
-<!-- jumbotron end -->
+<!-- begin wrapper -->
 <div class="wrapper">
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image1"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image2"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image3"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image4"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image5"></div>
-	</div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image6"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image7"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image8"></div>
-	</div>
-	</div>
-
-	<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-	<div class="image image9"></div>
-	</div>
-	</div>
-
+	<!-- contact start -->
+<div class="container">
+	<h1 class="contact-head">Contact Us</h1><br>
+	<form>
+		<label for="fname">First Name
+			<input id="fname" type="text" name="name" placeholder="Your name.." required>
+		</label>
+		</br>
+		<label for="lname">Email
+			<input type="text" id="email" name="email" placeholder="Your email.." required>
+		</label>
+		</br>
+		<label>Questions, comments, concerns
+			<textarea name="message" placeholder="Write something.." required></textarea>
+		</label>
+		<br>
+		<input type="submit" value="SEND" class="submit">
+	</form>
 </div>
-
+	<!-- contact end -->
+</div> 
+<!-- endwrapper -->
+<div class="contact-greeting">
+	<h1>We look forward to hearing from you! :)</h1>
+</div>
 
 
 <!-- Footer -->

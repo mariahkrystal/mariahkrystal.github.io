@@ -103,52 +103,102 @@ input, select {
 
 /* MY CODE */
 body {
-	background-image: url(pup2.jpeg);
-	background-size: cover;
-	background-position: center;
-	font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  display: block;
 }
 
-html {
-	height: 100%;
+* {
+  text-decoration: none;
 }
 
-#content {
-	text-align:center;
-	padding-top: 25%;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4), 
-				0px 8px 18px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1);
+a {
+  color: #000;
 }
 
-h1 {
-	font-weight: 700;
-	font-size: 5em;
+a:hover {
+  color: #e1dae5;
 }
 
-h1, h3 {
-	color:#fff;
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
 }
 
-hr {
-	width: 400px;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2)
+header .header-logo {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
 }
-
-.nav.navbar-nav.navbar-right li a {
-    color: black;
-}
-
-.navbar-default .navbar-brand {
-    color: black;
-}
-
-ul.nav a:hover { color: #aa1212 !important; }
 
 .navbar {
-	box-shadow: 0 8px 6px -6px;
-	border:0;
-	margin:0;
-	padding:0;
+  box-shadow: 0 8px 6px -6px;
+  border:0;
 }
+
+.navbar-inverse {
+  background:#513d5b;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color:#fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.contact-head {
+    font-size: 3em;
+}
+
+.contact-greeting {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    padding-bottom: 200px;
+}
+
+.wrapper {
+  margin-top: 20px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 10px rgb(211,211,211);
+          box-shadow: 0 0 10px rgb(211,211,211);
+  }
+
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #513d5b;
+}
+

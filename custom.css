@@ -1,9 +1,10 @@
- 
+
 /*------------------MY CODE---------------------*/
+
 body {
-		font-family: catamaran;
-		background-image: linear-gradient(to right, #434343 0%, black 100%);
-}
+	font-family: catamaran;
+	background-color: #000;
+	}
 
 nav {
     text-transform: uppercase;
@@ -54,8 +55,8 @@ h3 {
 }
 
 hr {
-	width: 50%;
-	border: 0;
+	width: 50% ;
+	border: 0 ;
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ed858e, rgba(255, 255, 255, 0));
 }
