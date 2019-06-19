@@ -1,123 +1,124 @@
 
 /*------------------MY CODE---------------------*/
-		body {
-		    font-family: catamaran;
-		    color:#000;
-		    background-color: #f1f1f1;
-		}
-		nav {
-		    text-transform: uppercase;
-		}
-
-		
-		a {
-			color: #ed858e;
-			text-decoration: none;
-		}
-
-		.navbar {
-		    background-color: white;
-		    border: none;
-			box-shadow: 0 8px 6px -6px;
-			border:0;
-			margin-bottom: 0;
-		
-		}
+body {
+	font-family: catamaran;
+	color:#000;
+	background-color: #f1f1f1;
+}
+nav {
+	text-transform: uppercase;
+}
 
 
-		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-		    color: #ed858e; 
-		}
+a {
+	color: #ed858e;
+	text-decoration: none;
+}
 
-		.navbar-brand {
-		    font-family: catamaran;
-		    font-weight: 900;
-		}
+.navbar {
+	background-color: white;
+	border: none;
+	box-shadow: 0 8px 6px -6px;
+	border:0;
+	margin-bottom: 0;
 
-		.navbar-default .navbar-nav, .navbar-default .navbar-brand {
-		    color: #000;
-		}
+}
 
-		.active, .btn:hover {
-			 background-color: rgba(0, 0, 0, 0.1);
-			 color: white;
-		}
 
-		@media only screen and (max-width: 500px) {
-	    .masthead-heading {
-	        font-size: 3em;
-	    }
-		}
-		@media only screen and (max-width: 500px) {
-	    .masthead {
-	        padding: 3em 0;
-	    }
-	    .masthead-heading {
-	        font-size: 3em;
-	    }
-		}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ed858e; 
+}
 
-		.masthead-heading,
-		.masthead-intro {
-		  text-align: center;
-		}
+.navbar-brand {
+	font-family: 'catamaran';
+	font-weight: 900;
+	color: #ed858e !important;  
+}
 
-		.masthead {
-		  padding: 1em 0;
-		  background-image: url('img/mac.jpeg');
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		  border-top: solid 1em #ed858e;
-		  box-shadow: inset 0 0 15px #000000;
-		}
+.navbar-default .navbar-nav, .navbar-default .navbar-brand {
+	color: #000;
+}
 
-		.masthead-intro {
-		  margin-bottom: 0.1em;
-		  font-family: catamaran;
-		  font-size: 2em;
-		}
+.active, .btn:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+		color: white;
+}
 
-		.masthead-heading {
-		  margin-top: -0.2em;
-		  font-family: catamaran;
-		  font-weight: 900;
-		  font-size: 6em;
-		  letter-spacing: -0.02em;
-		  text-transform: uppercase;
-		  text-shadow: 1px 1px 8px #000;
-		}
+@media only screen and (max-width: 500px) {
+.masthead-heading {
+	font-size: 3em;
+}
+}
+@media only screen and (max-width: 500px) {
+.masthead {
+	padding: 3em 0;
+}
+.masthead-heading {
+	font-size: 3em;
+}
+}
 
-		.aboutme-section {
-		  max-width: 50em;
-		  margin-left: auto;
-		  margin-right: auto;
-		  margin-top: 3em;
-		  margin-bottom: 3em;
-		  background-color: white;
-		  font-size:1em;
-		  padding:30px;
-		  text-align: justify;
-		}
+.masthead-heading,
+.masthead-intro {
+	text-align: center;
+}
 
-		.aboutme-section h1 {
-			font-weight: 700;
-			text-align: center;
-		}
+.masthead {
+	padding: 1em 0;
+	background-image: url('img/mac.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: solid 1em #ed858e;
+	box-shadow: inset 0 0 15px #000000;
+}
 
-		.aboutme-section p {
-			font-weight: 100;
-			font-size: 2rem;
-			padding: 10px
-		}
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: catamaran;
+	font-size: 2em;
+}
 
-		hr {
-			width: 50%;
-			border: 0;
-		    height: 1px;
-		    background-image: linear-gradient(to right, rgba(237, 133, 142, 0), rgba(237, 133, 142, 0.75), rgba(237, 133, 142, 0));
-		}
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: catamaran;
+	font-weight: 900;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 8px #000;
+}
 
-		.effect
+.aboutme-section {
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: white;
+	font-size:1em;
+	padding:30px;
+	text-align: justify;
+}
+
+.aboutme-section h1 {
+	font-weight: 700;
+	text-align: center;
+}
+
+.aboutme-section p {
+	font-weight: 100;
+	font-size: 2rem;
+	padding: 10px
+}
+
+hr {
+	width: 50%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(237, 133, 142, 0), rgba(237, 133, 142, 0.75), rgba(237, 133, 142, 0));
+}
+
+.effect
 {
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -151,125 +152,117 @@
 }
 
 
-		.me {
-			width: 250px;
-			height: 250px;
-			margin: auto;
-			display: block;
-		}
+.me {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	display: block;
+}
 
-		.fam {
-			width: 250px;
-			height: 250px;
-			margin: auto;
-			display: block;
-			float:right;
-		}
+.fas {
+	color: #bababa;
+}
 
-		.fas {
-			color: #bababa;
-		}
+#back-to-top-btn {
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	font-size: 26px;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	cursor: pointer;
+	outline: none;
+	border: 3px solid #ed858e;
+	border-radius: 50%;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	transition-property: background-color, color;
+}
 
-		#back-to-top-btn {
-			position: fixed;
-			bottom:20px;
-			right:20px;
-			font-size: 26px;
-			width: 50px;
-			height: 50px;
-			background-color: #fff;
-			cursor: pointer;
-			outline: none;
-			border: 3px solid #ed858e;
-			border-radius: 50%;
-			transition-duration: 0.2s;
-			transition-timing-function: ease-in-out;
-			transition-property: background-color, color;
-		}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+	color: #fff;
+	background-color: #ed858e;
+}
 
-		#back-to-top-btn:hover, #back-to-top-btn:focus {
-			color: #fff;
-			background-color: #ed858e;
-		}
+@media(max-width: 992px) {
+	.container { padding: 20px 100px; }
+	#back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
+}
+@media(max-width:768px) {
+	body { font-size: 16px; }
+	.container { padding: 10px 50px; }
+	h1 { font-size: 26px; }
+	h2 { font-size: 22px; }
+	hr { margin: 30px 0; }
+	#back-to-top-btn { font-size: 18px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
+}
 
-		@media(max-width: 992px) {
-		  .container { padding: 20px 100px; }
-		  #back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
-		}
-		@media(max-width:768px) {
-		  body { font-size: 16px; }
-		  .container { padding: 10px 50px; }
-		  h1 { font-size: 26px; }
-		  h2 { font-size: 22px; }
-		  hr { margin: 30px 0; }
-		  #back-to-top-btn { font-size: 18px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
-		}
+/* Animations */
+.btnEntrance {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: btnEntrance;
+}
+/* zoomIn */
+/* @keyframes btnEntrance { 
+	from {
+	opacity: 0;
+	transform: scale3d(0.3, 0.3, 0.3);
+	}
+	to {
+	opacity: 1;
+	}    
+} */
 
-		/* Animations */
-		.btnEntrance {
-		  animation-duration: 0.5s;
-		  animation-fill-mode: both;
-		  animation-name: btnEntrance;
-		}
-		/* zoomIn */
-		/* @keyframes btnEntrance { 
-		  from {
-		    opacity: 0;
-		    transform: scale3d(0.3, 0.3, 0.3);
-		  }
-		  to {
-		    opacity: 1;
-		  }    
-		} */
+/* fadeInUp */
+@keyframes btnEntrance {
+	from {
+	opacity: 0;
+	transform: translate3d(0, 100%, 0);
+	}
+	to {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+	}
+}
 
-		/* fadeInUp */
-		@keyframes btnEntrance {
-		  from {
-		    opacity: 0;
-		    transform: translate3d(0, 100%, 0);
-		  }
-		  to {
-		    opacity: 1;
-		    transform: translate3d(0, 0, 0);
-		  }
-		}
+.btnExit {
+	animation-duration: 0.25s;
+	animation-fill-mode: both;  
+	animation-name: btnExit;
+}
+/* zoomOut */
+/* @keyframes btnExit {
+	from {
+	opacity: 1;
+	}
+	to {
+	opacity: 0;
+	transform: scale3d(0.3, 0.3, 0.3);
+	}
+} */
 
-		.btnExit {
-		  animation-duration: 0.25s;
-		  animation-fill-mode: both;  
-		  animation-name: btnExit;
-		}
-		/* zoomOut */
-		/* @keyframes btnExit {
-		  from {
-		    opacity: 1;
-		  }
-		  to {
-		    opacity: 0;
-		    transform: scale3d(0.3, 0.3, 0.3);
-		  }
-		} */
-
-		/* fadeOutDown */
-		@keyframes btnExit {
-		  from {
-		    opacity: 1;
-		  }
-		  to {
-		    opacity: 0;
-		    transform: translate3d(0, 100%, 0);
-		  }
-		}
+/* fadeOutDown */
+@keyframes btnExit {
+	from {
+	opacity: 1;
+	}
+	to {
+	opacity: 0;
+	transform: translate3d(0, 100%, 0);
+	}
+}
 
 
 
-		#footer {
-		    position: fixed-bottom;
-		    bottom: 0;
-		    width: 100%;
-		    height: 60px;
-		    line-height: 60px;
-		    background-color: white;
-		    color: #000;
-		    box-shadow:0px -4px 3px rgba(50, 50, 50, 0.50);
-		}
+#footer {
+	position: fixed-bottom;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: white;
+	color: #000;
+	box-shadow:0px -4px 3px rgba(50, 50, 50, 0.50);
+}
