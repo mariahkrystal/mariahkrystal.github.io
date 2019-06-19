@@ -9,9 +9,24 @@ body {
  
 }
 
+/* cursor font awesome icon */
+.blink {
+  animation: blinker .5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+from { opacity: 1; }
+to { opacity: 0; }
+}
+
+.carousel {
+  width: 50% !important;
+  float: right;
+}
+
+
 .post {
   width: 80%;
-  
   padding: 20px;
   margin: 20px auto;
   max-width: 700px;
@@ -39,7 +54,7 @@ h2 {
 header {
   padding-top:30px;
   font-family: 'Catamaran';
-  font-size:3em;
+  font-size:4em;
   font-weight: 900;
   text-align: center;
 }

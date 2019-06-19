@@ -204,18 +204,7 @@ hr {
 	animation-fill-mode: both;
 	animation-name: btnEntrance;
 }
-/* zoomIn */
-/* @keyframes btnEntrance { 
-	from {
-	opacity: 0;
-	transform: scale3d(0.3, 0.3, 0.3);
-	}
-	to {
-	opacity: 1;
-	}    
-} */
 
-/* fadeInUp */
 @keyframes btnEntrance {
 	from {
 	opacity: 0;
@@ -232,18 +221,7 @@ hr {
 	animation-fill-mode: both;  
 	animation-name: btnExit;
 }
-/* zoomOut */
-/* @keyframes btnExit {
-	from {
-	opacity: 1;
-	}
-	to {
-	opacity: 0;
-	transform: scale3d(0.3, 0.3, 0.3);
-	}
-} */
 
-/* fadeOutDown */
 @keyframes btnExit {
 	from {
 	opacity: 1;
