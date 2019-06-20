@@ -4,6 +4,7 @@ body {
 	font-family: catamaran;
 	color:#000;
 	background-color: #f1f1f1;
+	margin: auto;
 }
 nav {
 	text-transform: uppercase;
@@ -65,7 +66,7 @@ a {
 
 .masthead {
 	padding: 1em 0;
-	background-image: url('img/mac.jpeg');
+	background-image: url('img/marble.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-top: solid 1em #ed858e;
