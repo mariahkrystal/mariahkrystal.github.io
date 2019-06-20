@@ -3,7 +3,7 @@
 body {
 	font-family: catamaran;
 	color:#000;
-	background-color: #f1f1f1;
+	background-color: #fff;
 	margin: auto;
 }
 nav {
@@ -25,7 +25,6 @@ a {
 
 }
 
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #ed858e; 
 }
@@ -45,9 +44,10 @@ a {
 		color: white;
 }
 
+/* masthead start */
 @media only screen and (max-width: 500px) {
 .masthead-heading {
-	font-size: 3em;
+	font-size: 1em;
 }
 }
 @media only screen and (max-width: 500px) {
@@ -76,18 +76,24 @@ a {
 .masthead-intro {
 	margin-bottom: 0.1em;
 	font-family: catamaran;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .masthead-heading {
 	margin-top: -0.2em;
 	font-family: catamaran;
 	font-weight: 900;
-	font-size: 6em;
+	font-size: 3em;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 8px #000;
 }
+
+#aboutme {
+	height:30%;
+	width:30%;
+}
+/* masthead end */
 
 .aboutme-section {
 	max-width: 50em;
@@ -117,6 +123,10 @@ hr {
 	border: 0;
 	height: 1px;
 	background-image: linear-gradient(to right, rgba(237, 133, 142, 0), rgba(237, 133, 142, 0.75), rgba(237, 133, 142, 0));
+}
+
+center {
+	color:#ed858e;
 }
 
 .effect
@@ -161,7 +171,7 @@ hr {
 }
 
 .fas {
-	color: #bababa;
+	color: #000;
 }
 
 #back-to-top-btn {
