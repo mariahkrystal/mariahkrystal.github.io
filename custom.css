@@ -41,6 +41,13 @@ html {
 	margin:0px;
 }
 
+.latestprojects {
+	height:60%;
+	width:60%;
+	padding:0px;
+	margin:0px;
+}
+
 h1 {
 	font-weight: 100;
 	font-size: ;
@@ -106,6 +113,10 @@ hr {
 .navbar-default .navbar-nav, .navbar-default .navbar-brand {
     color: #000;
 }
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: #ed858e;
+  }
 
 .active {
 	background-color: rgba(0, 0, 0, 0.1);

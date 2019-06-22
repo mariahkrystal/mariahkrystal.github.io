@@ -41,6 +41,48 @@ a {
 		color: white;
 }
 
+.navbar .navbar-toggle .icon-bar {
+	background-color: #ed858e;
+  }
+
+@media (max-width: 700px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+	.navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}/* navbar end */
+
 /* masthead start */
 @media only screen and (max-width: 500px) {
 	.masthead-heading {
@@ -98,6 +140,7 @@ a {
 	padding-bottom: 300px;
 }
 
+/* hover effect for thumbnails */
 .hovereffect {
 	width: 100%;
 	height: 100%;
@@ -194,8 +237,10 @@ a {
 	transform: translate3d(0,0,0);
 }
 
+
+/* back to top button start */
 .fas {
-	color: #000;
+	color: gray;
 }
 
 #back-to-top-btn {
@@ -239,16 +284,6 @@ a {
 	animation-fill-mode: both;
 	animation-name: btnEntrance;
 }
-/* zoomIn */
-/* @keyframes btnEntrance { 
-	from {
-	opacity: 0;
-	transform: scale3d(0.3, 0.3, 0.3);
-	}
-	to {
-	opacity: 1;
-	}    
-} */
 
 /* fadeInUp */
 @keyframes btnEntrance {
@@ -267,17 +302,6 @@ a {
 	animation-fill-mode: both;  
 	animation-name: btnExit;
 }
-/* zoomOut */
-/* @keyframes btnExit {
-	from {
-	opacity: 1;
-	}
-	to {
-	opacity: 0;
-	transform: scale3d(0.3, 0.3, 0.3);
-	}
-} */
-
 /* fadeOutDown */
 @keyframes btnExit {
 	from {
@@ -288,10 +312,7 @@ a {
 	transform: translate3d(0, 100%, 0);
 	}
 }
-
-
-
-
+/* back to top button end */
 
 #footer {
 	position: fixed-bottom;
