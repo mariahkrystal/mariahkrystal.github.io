@@ -32,6 +32,11 @@ a {
 	color: #ed858e !important;  
 }
 
+.navbar-brand img {
+	height:30px;
+	width:200px;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #ed858e; 
 }

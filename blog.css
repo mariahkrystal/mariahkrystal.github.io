@@ -159,6 +159,11 @@ font-weight: 900;
 color: #ed858e !important;  
 }
 
+.navbar-brand img {
+	height:30px;
+	width:200px;
+}
+
 .navbar-default .navbar-nav, .navbar-default .navbar-brand {
   color: #000;
 }
