@@ -34,11 +34,16 @@ html {
 				0px 18px 23px rgba(0,0,0,0.1); */
 }
 
+.jumbotron {
+	background:url('img/brick.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 10px;
+}
 h1 {
 	font-family:'catamaran';
 	font-weight:900;
-	font-size:2.5em;
-	color: #fff;
+	font-size:2rem;
+	color: #fff !important;
 	text-shadow: 0 1px 0 #ccc,
 				 0 2px 0 #c9c9c9,
 				 0 3px 0 #bbb,
@@ -55,6 +60,7 @@ h1 {
 
 h3 {
 	font-size:2rem;
+	font-weight:bold;
 	color: #ed858e;
 	font-weight:100;
 	text-transform: uppercase;
@@ -69,7 +75,7 @@ h4	{
 
 /* view portfolio button */
 .btn-md.round { 
-	border-color:white;
+	border-color:transparent;
 	border-radius: 40px;
 	color:#fff;
 	font-weight:700;
@@ -90,7 +96,7 @@ h4	{
 
 .btn-default {
     color: #000;
-	background-color: white;
+	background-color: transparent;
 	opacity: 0.7;
     border-color: none; /*set the color you want here*/
 }
@@ -105,7 +111,7 @@ h4	{
 	width:40%;
 	padding:0px;
 	margin:0px;
-	font-size: 1.89rem; 
+	font-size: 1.5rem; 
 	font-weight:900;
 	color: #fff;
 	text-shadow: 0 1px 0 #ccc,

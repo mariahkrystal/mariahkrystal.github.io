@@ -5,16 +5,8 @@ body {
   font-family: 'catamaran';
   color:#000;
   background-color: #fff;
-}
-
-/* cursor font awesome icon */
-.blink {
-  animation: blinker .5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-@keyframes blinker {  
-from { opacity: 1; }
-to { opacity: 0; }
+  background:url('img/paperclip.jpeg') no-repeat center center fixed;
+	background-size: cover;
 }
 
 /* masthead start */
@@ -87,6 +79,7 @@ to { opacity: 0; }
   max-width: 700px;
   margin-bottom: 20px;
   border: 5px solid #ed858e;
+  background-color:white;
 }
 
 .date {
