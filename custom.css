@@ -35,7 +35,8 @@ html {
 }
 
 .jumbotron {
-	background:url('img/brick.jpg') no-repeat center center fixed;
+	background-color: #FFF;
+	/* background:url('img/brick.jpg') no-repeat center center fixed; */
 	background-size: cover;
 	padding-bottom: 10px;
 }
